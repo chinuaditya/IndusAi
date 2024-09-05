@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+#hero button {
+    padding: 0.5em 2em;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #45a049;
+}
+
+/* Features Section */
+#features {
+    background-color: #ffffff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#features h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#features li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#testimonials h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#contact h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    margin: 0.5em 0 0.2em 0;
+}
+
+#contact input,
+#contact textarea {
+    width: 80%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    padding: 0.5em 2em;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+#contact button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #hero h2 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        font-size: 1em;
+    }
+
+    #features h3,
+    #testimonials h3,
+    #contact h3 {
+        font-size: 1.5em;
+    }
+}
+
