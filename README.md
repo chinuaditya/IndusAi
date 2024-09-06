@@ -2,6 +2,7 @@
 internship program for full stack development
 
 task 1
+objective : payment landing page using html, css and js
 Design Choices & Challenges for the Payments Web Application Landing Page:
 1. Clean and Professional Look
 2. Structure : page includes a header, hero section, features section, testimonials section, contact section, and footer.
@@ -16,8 +17,9 @@ Challenges Faced :
 
 
 task 2
-Design Choices:
+objective: Create a basic web page using html , css and js , Where when the users press on a certain key, a of sound of drum kit should be played .
 
+Design Choices:
 Simple, Professional Layout: The webpage has a minimalist design to keep the focus on interactivity. A grid layout was used for the drum keys, ensuring clarity and ease of use.
 Responsive Design: CSS media queries ensure the page looks good on all devices. The font size and padding for the keys adjust depending on the screen size.
 Clear Key Mapping: The keys are labeled (A, S, D, etc.) to ensure users know which key triggers which sound. This avoids any confusion and enhances the user experience.
